@@ -1,0 +1,12 @@
+acmedot prints the location of dot in the current acme window.
+
+	usage: acmedot [format1 [format2]]
+	    format1 - specifies the output format. It will be
+	              used as if called by
+	              fmt.Printf(format1, start, end).
+	    format2 - specifies the output format where start and
+	              end are the same. It will be used as if called
+	              by fmt.Printf(format2, start)
+
+The default format is "%d,%d\n".
+
